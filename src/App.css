@@ -1,0 +1,54 @@
+.dev1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.dev2 {
+    width: 100%;
+}
+
+.kol {
+    display: flex;
+    justify-content: space-between;
+
+    img {
+        width: 500px;
+    }
+}
+
+.you {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width:400px) {
+    .dev1 {
+        flex-direction: column;
+        line-height: 0px;
+    }
+
+    .ant-row {
+        margin-top: 20px;
+        width: max-content !important;
+        margin-left: 15px !important;
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .kol {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+
+        img {
+            width: 100%;
+        }
+    }
+}
